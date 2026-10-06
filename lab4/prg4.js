@@ -111,5 +111,6 @@ app.use((req, res) => {
 
 // Start Server
 app.listen(3333, () => {
+    console.log("FILTERING APPLIED");
     console.log("prg4 is running...");
 });
